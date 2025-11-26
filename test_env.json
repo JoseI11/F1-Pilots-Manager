@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Lewis Hamilton",
+        "team": "Ferrari",
+        "number": 44
+    },
+    {
+        "id": 2,
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "number": 1
+    },
+    {
+        "id": 3,
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "number": 16
+    },
+    {
+        "id": 4,
+        "name": "Sergio Perez",
+        "team": "Cadillac",
+        "number": 11
+    }
+]
