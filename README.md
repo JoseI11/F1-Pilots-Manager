@@ -54,9 +54,14 @@ Aplicación web para gestionar pilotos de Fórmula 1 con una API RESTful en Flas
 - DELETE /pilotos/<id> - Eliminar piloto
 - GET /estadisticas - Obtener estadísticas
 ## 📱 Vista Previa
+<p align="center">
+  <img src="https://i.postimg.cc/7LhzNLkD/Macbook-Air-127-0-0-1.png" alt="F1 car" width="500">
+</p>
+<p align="center">
+  <img src="https://i.postimg.cc/pdrjBdHt/Samsung-Galaxy-S20-127-0-0-1.png" alt="F1 car" width="200">
+</p>
 
 ## 📄 Licencia
 Este proyecto está bajo la Licencia MIT.
-
 ## 📧 Contacto
 José Imhoff - jose-imhoff@hotmail.com
