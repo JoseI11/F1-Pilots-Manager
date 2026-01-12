@@ -1,67 +1,75 @@
-# 🏎️ F1 Pilots Manager
 
-Aplicación web para gestionar pilotos de Fórmula 1 con una API RESTful en Flask.
+# F1 Pilots Manager
 
-## 🚀 Características
+Read in: [Spanish](README.es.md) | [English](README.md) 
 
-- CRUD completo de pilotos
-- Estadísticas detalladas
-- Interfaz responsiva
-- Filtrado y búsqueda
-- Paginación
-- Validación de datos
 
-## 🛠️ Tecnologías
 
-- **Backend**: Python, Flask, SQLite
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-- **Librerías**: Bootstrap 5, Chart.js
+## Overview
+F1 Pilots Manager is a web application to manage Formula 1 drivers, built with a RESTful API in Flask.  
 
-## 📦 Instalación
+It includes a full CRUD, filtering/search, pagination, and basic statistics with charts.
+## Demo
 
-1. Clonar el repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/F1-Pilots-Manager.git](https://github.com/tu-usuario/F1-Pilots-Manager.git)
-   cd F1-Pilots-Manager
-   ```
-2. Crear entorno virtual:
-   ```bash
-    python -m venv venv
-    source venv/bin/activate  # En Windows: venv\Scripts\activate
-   ```
-3. Instalar dependencias:
-   ```bash
-    pip install -r requirements.txt
-   ```
-4. Iniciar la aplicación:
-   ```bash
-    python app.py
-   ```
-5. Abrir en el navegador:
-   ```bash
-    http://localhost:5000
-   ```
-## 🎨 Características Técnicas
-- API RESTful completa
-- Validación de datos del lado del servidor
-- Manejo de errores
-- Diseño responsivo
-## 📝 Endpoints de la API
-- GET /pilotos - Lista de pilotos
-- POST /pilotos - Crear piloto
-- GET /pilotos/<id> - Obtener piloto
-- PUT /pilotos/<id> - Actualizar piloto
-- DELETE /pilotos/<id> - Eliminar piloto
-- GET /estadisticas - Obtener estadísticas
-## 📱 Vista Previa
-<p align="center">
-  <img src="https://i.postimg.cc/7LhzNLkD/Macbook-Air-127-0-0-1.png" alt="F1 car" width="500">
-</p>
-<p align="center">
-  <img src="https://i.postimg.cc/pdrjBdHt/Samsung-Galaxy-S20-127-0-0-1.png" alt="F1 car" width="200">
-</p>
+Currently not deployed. Run it locally using the steps below.
 
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT.
-## 📧 Contacto
-José Imhoff - jose-imhoff@hotmail.com
+
+## Features
+
+- Full CRUD for drivers (create, read, update, delete)
+- Filtering and search
+- Pagination
+- Server-side validation and error handling
+- Responsive UI (desktop and mobile)
+- Driver statistics and charts
+## Tech Stack
+- **Python + Flask** – Backend framework used to build a clean RESTful API quickly.
+- **SQLite** – Simple local database for fast setup and portability.
+- **HTML5 / CSS3 / Vanilla JavaScript** – Lightweight frontend without extra complexity.
+- **Bootstrap 5** – Responsive layout and UI components.
+- **Chart.js** – Data visualization for driver statistics.
+- **PostImages** – Hosts screenshots/images to keep the repository lightweight.
+## Screenshots
+
+![PC](https://i.postimg.cc/7LhzNLkD/Macbook-Air-127-0-0-1.png)
+
+![Cellphone](https://i.postimg.cc/pdrjBdHt/Samsung-Galaxy-S20-127-0-0-1.png)
+
+## Getting Started
+Clone the repository:
+
+```bash
+git clone https://github.com/JoseI11/F1-Pilots-Manager.git
+cd F1-Pilots-Manager
+```
+Create and activate a virtual environment:
+```bash
+python -m venv venv
+# macOS/Linux
+source venv/bin/activate
+# Windows (PowerShell)
+venv\Scripts\Activate.ps1
+```
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+Run the app:
+```bash
+python app.py
+```
+Open in your browser:
+```bash
+http://localhost:5000
+```
+
+## Roadmap
+
+- Add sorting options (points, wins, team).
+- Improve statistics dashboard (more charts and insights).
+- Add tests for API endpoints.
+- Add Docker support for easier setup.
+## Authors
+
+- [@José Imhoff](https://www.linkedin.com/in/joseimhoff/)
+
